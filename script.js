@@ -25,4 +25,6 @@ setInterval(updateTime, 100);
 function normalFormatHour(hours) {
   if (hours > 12) return hours - 12;
   if (hours == 12) return 12;
+  return hours;
 }
+
